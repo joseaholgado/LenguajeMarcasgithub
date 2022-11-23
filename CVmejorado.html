@@ -7,7 +7,6 @@
             width: 85%;
             margin: 0 auto;
             border: 1px solid black;
-
         }
 
         header {
@@ -17,10 +16,10 @@
             margin-left: 35%;
         }
 
-        div#completo {
+        div#intermedio {
             display: flex;
-            justify-content: flex-start;
-            flex-direction: row-reverse;
+            justify-content: space-between;
+            
         }
 
         nav {
@@ -29,7 +28,9 @@
             justify-content: space-around;
             border: 1px solid black;
             text-align: center;
-            background-image: url("C:\Users\josea\Desktop\FPDAW-1\LenguajeMarcasgithub\Imagenes para trabajo\xbox");
+            background-image: url("mandosXbox.jpg");
+            background-size: auto(width="150" height="200");
+            
          }
 
         aside {
@@ -44,10 +45,17 @@
             margin-right: 15%;
         }
 
-        section {
+        section#info{
             border: 1px solid black;
-            
-            
+            display: flex;
+            flex-direction: column;
+
+        }
+        section#columna{
+            border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+
         }
     </style>
     <meta charset="UTF-8">
@@ -84,7 +92,7 @@
                     </div>
                 </nav>
 
-            <div id="completo">
+            <div id="intermedio">
                 <aside>
                     <div id="imagen">
                         <img src="foto.jpg" width="150" height="200" alt="foto carnet"> </img>
@@ -106,12 +114,21 @@
                         </ul>
                     </div>
                 </aside>
-                <section>
+                <section id="info">
                     <div>
-                        <h3>bocadllo de choped</h3>
+                        <h3>Clasificación de los mejores juegos</h3>
+
+                        <ul>
+                            
+                            <li>1ª God of War: Ragnarok</li>
+                            <li>2ª Tekken 8</li>
+                            <li>3ª Eldeng Ring</li>
+                            <li>4ª Pokemon</li>
+                            <li>5ª Street fighter</li>
+                        </ul>
                     </div>
                 </section>
-                <section>
+                <section id="columna">
 
                     <ul>
                         <h3>EDUCACIÓN</h3>
