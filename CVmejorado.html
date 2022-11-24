@@ -7,6 +7,7 @@
             width: 85%;
             margin: 0 auto;
             border: 1px solid black;
+            background-image: url("./Imagenes-para-trabajo/Central-de-pagina/juegoGrande.jpg");
         }
 
         header {
@@ -14,12 +15,14 @@
             width: 30%;
             text-align: center;
             margin-left: 35%;
+            
         }
 
         div#intermedio {
             display: flex;
             justify-content: space-between;
-            
+            background-image: url("./Imagenes-para-trabajo/Mando.jp");
+            background-size: 5%;
         }
 
         nav {
@@ -28,11 +31,22 @@
             justify-content: space-around;
             border: 1px solid black;
             text-align: center;
-            background-image: url("mandosXbox.jpg");
-            background-size: auto(width="150" height="200");
+            
             
          }
-
+         div#nintendo {
+            background-image: url("./Imagenes-para-trabajo/nintendo/pexels-pixabay-163077.jpg");
+            background-size: 100%;
+            
+         }
+          div#xbox {
+            background-image: url("Imagenes-para-trabajo/xbox/mandoXbox2.jpg");
+            background-size: 100%;
+          }
+          div#playstation{
+            background-image: url("Imagenes-para-trabajo/playstation/pexels-polina-tankilevitch-4523000.jpg");
+            background-size: 40%;
+          }
         aside {
             border: 1px solid black;
             display: flex;
@@ -57,6 +71,20 @@
             flex-direction: column;
 
         }
+        h2#nintendo{
+            color: red;
+            
+        }
+        h2#playstation{
+            color: blue;
+        }
+        h2#xbox{
+            color: green;
+        }
+        p{
+            color: white;
+            
+        }
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -79,15 +107,15 @@
             
                 <nav>
                     <div id="nintendo">
-                        <h2> Nintendo </h2>
+                        <h2 id="nintendo"> Nintendo </h2>
                         <p> Pagina oficial de <a href="nintendo.es" target="_blank" n tel>Nintendo</a></p>
                     </div>
                     <div id="playstation">
-                        <h2> Playstation </h2>
+                        <h2 id="playstation"> Playstation </h2>
                         <p> Pagina oficial de <a href="playstation.es " target="_blank" n tel> Playstation </a></p>
                     </div>
                     <div id="xbox">
-                        <h2> Xbox </h2>
+                        <h2 id="xbox"> Xbox </h2>
                         <p> Pagina oficial de <a href="Xbox.es" target="_blank" n tel> Xbox </a> </p>
                     </div>
                 </nav>
