@@ -34,6 +34,12 @@
             p {
                 line-height: 12px;
             }
+            body>p:target{
+                visibility: visible;
+                font-style: italic;
+                text-align: center;
+                text-decoration: underline;
+            }
     
             div {
                 line-height: 36px;
@@ -78,7 +84,8 @@
 
 <body>
     <body>
-        <p>Soldadito marinero</p>
+        <p><a href="#target">Soldadito marinero</a></p>
+        <p>Fiti y fitipaldis</p>
         <div>
             <p>Él camina despacito que las prisas no son buenas</p>
             <p>En su brazo dobladita, con cuidado la chaqueta</p>
