@@ -7,7 +7,7 @@
             width: 85%;
             margin: 0 auto;
             border: 1px solid black;
-            background-image: url("./Imagenes-para-trabajo/Central-de-pagina/juegoGrande.jpg");
+            
         }
 
         header {
@@ -15,12 +15,13 @@
             width: 30%;
             text-align: center;
             margin-left: 35%;
-            
+            background-image: url("./Imagenes-para-trabajo/Central-de-pagina/juegoGrande.jpg");
+            background-size: 50%;
         }
 
         div#intermedio {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             background-image: url("./Imagenes-para-trabajo/Mando.jp");
             background-size: 5%;
         }
@@ -52,7 +53,8 @@
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-           
+           background-image: url("Imagenes-para-trabajo/aside/Jugadora.jpg");
+           background-size: 120%;
         }
 
         div#imagen {
@@ -63,13 +65,28 @@
             border: 1px solid black;
             display: flex;
             flex-direction: column;
+            align-items: center;
 
         }
         section#columna{
             border: 1px solid red;
-            display: flex;
-            flex-direction: column;
+            background-color: grey;
+           padding-left: 3%; 
+           padding-right: 3%;
 
+        }
+        div#texto:first-letter{
+                font-size: 40px;
+                
+            }
+            div#texto{
+                background-color: brown;
+            }
+        section#columna:active{
+                zoom:120%;
+            }
+        h1{
+            color: yellow;
         }
         h2#nintendo{
             color: red;
@@ -81,10 +98,23 @@
         h2#xbox{
             color: green;
         }
-        p{
-            color: white;
-            
+        h3#jugadora{
+            color: white
         }
+        ul#jugadora{
+            color: white
+        }
+
+        p:hover{
+            background-color: yellow;  
+        }
+        div#invisible{
+                display:none;
+        }
+        #invisible:target{
+                display: block;
+        }
+        
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -122,16 +152,13 @@
 
             <div id="intermedio">
                 <aside>
-                    <div id="imagen">
-                        <img src="foto.jpg" width="150" height="200" alt="foto carnet"> </img>
-
-                    </div>
+                    
 
                     <div>
 
-                        <ul>
+                        <ul id="jugadora">
 
-                            <h3>Datos generales</h3>
+                            <h3 id="jugadora">Datos generales</h3>
                             <li>Tlf: <a href="tel: 678 45 97 84 " target="_blank" n tel> 678 45 97 84 </a></li>
                             <li>Dirección: Calle Antonio Martelo, <br> <span id="a">Málaga</span></li>
                             <li>Edad: 27</li>
@@ -144,39 +171,59 @@
                 </aside>
                 <section id="info">
                     <div>
-                        <h3>Clasificación de los mejores juegos</h3>
+                        <h3>Clasificación de juegos Nintendo</h3>
 
+                        <ul>
+                            
+                            <li>1ª Mario Kart 8</li>
+                            <li>2ª Zelda</li>
+                            <li>3ª Byonetta 3</li>
+                            <li>4ª Pokemon</li>
+                            <li>5ª Metroid</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Clasificación de juegos Playstation</h3>
                         <ul>
                             
                             <li>1ª God of War: Ragnarok</li>
                             <li>2ª Tekken 8</li>
                             <li>3ª Eldeng Ring</li>
-                            <li>4ª Pokemon</li>
+                            <li>4ª Sekiro</li>
                             <li>5ª Street fighter</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Clasificación de juegos Xbox</h3>
+                        <ul>
+                            
+                            <li>1ª Halo</li>
+                            <li>2ª Forza Horizon</li>
+                            <li>3ª Fallout 4</li>
+                            <li>4ª Call of Duty</li>
+                            <li>5ª Homefront</li>
                         </ul>
                     </div>
                 </section>
                 <section id="columna">
 
-                    <ul>
-                        <h3>EDUCACIÓN</h3>
-                        <h5><u>Bachillerato:</u></h5>
-                        <p>I.E.S Mediterráneo 2015-2017, Estepona</p>
-                        <h5><u>FPS de Mantenimiento de Instalaciones Térmicas y de Fluidos:</u></h5>
-                        <p>Politécnico Hemenegildo Lanz 2018-2020, Granada</p>
+                    
+                        <h3><u>Guia De Eldeng Ring</u></h3>
+                        <div id="texto">
 
-                        <h3>EXPERIENCIAS PREVIAS</h3>
-                        <p>He hecho esta web con <mark>html</mark></p>
-
-                        <h3>COMPETENCIAS INTERPERSONALES Y DE COMUNICACIÓN </h3>
-                        <h5><u>Competencias interpersonales y de comunicación</u></h5>
-                        <p>Persona con buenas actitudes comunicativas hacia terceros debido a mis trabajos de cara al
-                            público
-                        <p>
-                        <p>Trato al público de manera educada y siempre con una sonrisa</p>
-
-
-                    </ul>
+                        <p>La historia de Elden Ring comenzará, cómo no, con la creación de personaje.</p>
+                        <p>Después aparecerás en la Capilla de la espera, no hay mucho que hacer salvo</p>
+                        <p>recoger el Dedo Marchito de Sinluz del cuerpo de la esquina. Este objeto te</p>
+                        <p>servirá para dejar mensajes a otros jugadores. Después, sal por la puerta y avanza</p>
+                        <p>hasta el cementerio.</p>
+                        <p>Aparecerá el Vástago injertado. No vamos a contarte gran cosa sobre él: el juego</p>
+                        <p>está preparado para matarte e, incluso si sobrevives, morirás justo después.</p>
+                        <p>¿Nuevo en el universo Soulsborne? Bienvenido seas, acostúmbrate a morder el</p>
+                        <p>polvo.</p>
+                        
+                            <mark>html</mark></p>
+                        </div>
+                    
 
 
                 </section>
@@ -187,7 +234,8 @@
             <article>
                 <ul>
                     <h3>Otros datos</h3>
-                    <p>Tengo carnet C y B, vehículo propio.</p>
+                    <div id=invisible>Titulo prinicipal</div>
+                        <a href="#invisible">Mostrar autor</a>
                 </ul>
             </article>
         </body>
