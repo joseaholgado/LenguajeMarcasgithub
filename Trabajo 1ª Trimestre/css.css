@@ -1,14 +1,14 @@
 
 
-@media  screen and (max-width: 900px) {
+@media  screen and (max-width: 1800px) {
     body {
-      background-color: rgb(35, 236, 75);
+      background-color: lightblue;
       width: 85%;
       margin: 0 auto;
       border: 1px solid black;
     }
   }
-  @media  screen and (max-width: 400px) {
+  @media  screen and (max-width: 1200px) {
     body {
       background-color: rgb(183, 34, 42);
       width: 85%;
@@ -32,7 +32,9 @@
               text-align: center;
               margin-left: 35%;
               background-image: url("./Imagenes-para-trabajo/Central-de-pagina/juegoGrande.jpg");
-              background-size: 50%;
+              background-size: 100%;
+              background-repeat: no-repeat;
+            
           }
   
           div#intermedio {
@@ -40,6 +42,7 @@
               justify-content: space-around;
               background-image: url("./Imagenes-para-trabajo/Mando.jp");
               background-size: 5%;
+              background-repeat: no-repeat;
           }
   
           nav {
@@ -54,15 +57,18 @@
            div#nintendo {
               background-image: url("./Imagenes-para-trabajo/nintendo/pexels-pixabay-163077.jpg");
               background-size: 100%;
+              background-repeat: no-repeat;
               
            }
             div#xbox {
               background-image: url("Imagenes-para-trabajo/xbox/mandoXbox2.jpg");
               background-size: 100%;
+              background-repeat: no-repeat;
             }
             div#playstation{
               background-image: url("Imagenes-para-trabajo/playstation/pexels-polina-tankilevitch-4523000.jpg");
-              background-size: 40%;
+              background-size: 80%;
+              background-repeat: no-repeat;
             }
           aside {
               border: 1px solid black;
@@ -71,6 +77,7 @@
               align-items: flex-end;
              background-image: url("Imagenes-para-trabajo/aside/Jugadora.jpg");
              background-size: 120%;
+             background-repeat: no-repeat;
           }
   
           div#imagen {
