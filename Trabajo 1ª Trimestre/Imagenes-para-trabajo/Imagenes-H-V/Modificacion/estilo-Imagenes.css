@@ -34,9 +34,6 @@
             flex-direction: column;
         }
 
-        /*         Ahora me aseguro que el portarretratos no sea mayor
-        que la foto más grande
-        para evitar el pixelado */
 
         @media screen and (orientation:landscape){
             .portaFoto {
