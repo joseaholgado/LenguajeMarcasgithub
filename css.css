@@ -31,7 +31,7 @@
               width: 30%;
               text-align: center;
               margin-left: 35%;
-              background-image: url("./Imagenes-para-trabajo/Central-de-pagina/juegoGrande.jpg");
+              background-image: url("./Trabajo-Trimestre/Imagenes-para-trabajo/Central-de-pagina/juegoGrande.jpg");
               background-size: 100%;
               background-repeat: no-repeat;
             
@@ -40,7 +40,7 @@
           div#intermedio {
               display: flex;
               justify-content: space-around;
-              background-image: url("./Imagenes-para-trabajo/Mando.jp");
+              background-image: url("./Trabajo-Trimestre/Imagenes-para-trabajo/Mando.jp");
               background-size: 5%;
               background-repeat: no-repeat;
           }
@@ -55,18 +55,18 @@
               
            }
            div#nintendo {
-              background-image: url("./Imagenes-para-trabajo/nintendo/pexels-pixabay-163077.jpg");
+              background-image: url("./Trabajo-Trimestre/Imagenes-para-trabajo/nintendo/pexels-pixabay-163077.jpg");
               background-size: 100%;
               background-repeat: no-repeat;
               
            }
             div#xbox {
-              background-image: url("Imagenes-para-trabajo/xbox/mandoXbox2.jpg");
+              background-image: url("./Trabajo-Trimestre/Imagenes-para-trabajo/xbox/mandoXbox2.jpg");
               background-size: 100%;
               background-repeat: no-repeat;
             }
             div#playstation{
-              background-image: url("Imagenes-para-trabajo/playstation/pexels-polina-tankilevitch-4523000.jpg");
+              background-image: url("./Trabajo-Trimestre/Imagenes-para-trabajo/playstation/pexels-polina-tankilevitch-4523000.jpg");
               background-size: 80%;
               background-repeat: no-repeat;
             }
@@ -75,7 +75,7 @@
               display: flex;
               flex-direction: column;
               align-items: flex-end;
-             background-image: url("Imagenes-para-trabajo/aside/Jugadora.jpg");
+             background-image: url("./Trabajo-Trimestre/Imagenes-para-trabajo/aside/Jugadora.jpg");
              background-size: 120%;
              background-repeat: no-repeat;
           }
