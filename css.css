@@ -40,9 +40,7 @@
           div#intermedio {
               display: flex;
               justify-content: space-around;
-              background-image: url("./Trabajo-Trimestre/Imagenes-para-trabajo/Mando.jp");
-              background-size: 5%;
-              background-repeat: no-repeat;
+              
           }
   
           nav {
@@ -67,7 +65,7 @@
             }
             div#playstation{
               background-image: url("./Trabajo-Trimestre/Imagenes-para-trabajo/playstation/pexels-polina-tankilevitch-4523000.jpg");
-              background-size: 80%;
+              background-size: 100%;
               background-repeat: no-repeat;
             }
           aside {
