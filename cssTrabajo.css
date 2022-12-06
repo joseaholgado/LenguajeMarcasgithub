@@ -47,7 +47,6 @@
               display: flex;
               flex-direction: row;
               justify-content: space-around;
-              border: 1px solid black;
               text-align: center;
               
               
@@ -62,6 +61,7 @@
               background-image: url("./Trabajo-Trimestre/Imagenes-para-trabajo/xbox/mandoXbox2.jpg");
               background-size: 100%;
               background-repeat: no-repeat;
+              
             }
             div#playstation{
               background-image: url("./Trabajo-Trimestre/Imagenes-para-trabajo/playstation/pexels-polina-tankilevitch-4523000.jpg");
@@ -69,13 +69,14 @@
               background-repeat: no-repeat;
             }
           aside {
-              border: 1px solid black;
+              
               display: flex;
               flex-direction: column;
               align-items: flex-end;
              background-image: url("./Trabajo-Trimestre/Imagenes-para-trabajo/aside/Jugadora.jpg");
-             background-size: 120%;
+             background-size: 132%;
              background-repeat: no-repeat;
+             margin-top: 3%;
           }
   
           div#imagen {
@@ -83,19 +84,50 @@
           }
   
           section#info{
-              border: 1px solid black;
+              
               display: flex;
               flex-direction: column;
               align-items: center;
+              margin-top: 3%;
   
+          }
+          div#arriba{
+            border: 1px solid black;
+            background-color: red;
+          }
+          div#arribasecundario{
+            background-color: white;
+          }
+          div#medio{
+            border: 1px solid black;
+            background-color: blue;
+          }
+          div#mediosecundario{
+            background-color: white;
+          }
+          div#abajo{
+            border: 1px solid black;
+            background-color: green;
+          }
+          div#abajosecundario{
+            background-color: white;
+          }
+          li#winner::before{
+            content: "Winner: ";
+            color: rgb(200, 200, 1);
+          }
+          ul li::marker {
+            color: red;
           }
           section#columna{
               border: 1px solid red;
               background-color: grey;
              padding-left: 3%; 
              padding-right: 3%;
+             margin-top: 3%;
   
           }
+          
           div#texto:first-letter{
                   font-size: 40px;
                   
