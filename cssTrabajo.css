@@ -128,7 +128,7 @@
   
           }
           
-          div#texto:first-letter{
+          div#texto::first-letter{
                   font-size: 40px;
                   
               }
