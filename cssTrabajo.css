@@ -1,9 +1,5 @@
-
-
-
-  
-  
-          header {
+        
+          div#cuadroimagen {
               background-color: rgb(57, 149, 177);
               width: 30%;
               text-align: center;
@@ -12,6 +8,21 @@
               background-size: 100%;
               background-repeat: no-repeat;
             
+          }
+          li#menu{
+            display: inline-block;
+            width:5%;
+            height:2em;
+            background-color: goldenrod;
+            border-radius:5px;
+            margin:5px;
+            border-width: 0px 2px 2px 0px;
+            border-color:gray;
+            border-style:solid;
+            text-align:center;
+            padding-top:1vh;
+            font-size:xx-large;
+            box-shadow:2px 2px darkolivegreen;
           }
   
           div#intermedio {
