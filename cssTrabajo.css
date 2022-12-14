@@ -116,10 +116,14 @@
   
           }
           
-          div#texto::first-letter{
+          p#primero::first-letter{
                   font-size: 40px;
                   
               }
+              p#segundo::first-letter{
+                font-size: 40px;
+                
+            }
               div#texto{
                   background-color: brown;
               }
